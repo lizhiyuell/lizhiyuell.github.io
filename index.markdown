@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: post
 title: 		李之悦的个人主页
 date: 		2022-04-28 00:00:00
 author:		"李之悦"
