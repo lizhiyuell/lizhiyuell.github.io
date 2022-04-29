@@ -2,7 +2,6 @@
 layout: homepagepost
 title: 个人主页
 name: 李之悦
-img: "picture.jpg"
 email: sldjlzy@163.com
 ---
 
