@@ -6,8 +6,7 @@ email: sldjlzy@163.com
 ---
 
 # <center> Zhiyue Li
-
-<!-- <img src="picture.jpg" width="25%"></img> -->
+---
 
 ### About Me
 I am now pursuing Master's Degree in the Department of Computer Science and Technology in Tsinghua University, under the guidance of Prof. Guangyan Zhang of the Tsinghua *Fastsys Lab*. My research interest falls in storage array and distributed transaction systems.
