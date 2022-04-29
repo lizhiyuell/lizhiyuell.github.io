@@ -38,3 +38,7 @@ I am now pursuing Master's Degree in the Department of Computer Science and Tech
 * 2021.09 Friends of Tsinghua Scholarship
 * 2020.06 Outstanding Graduate of Beihang University
 * 2017.09 National Scholarship
+
+
+---
+[Chinese version](index.markdown)

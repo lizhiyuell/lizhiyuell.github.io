@@ -8,7 +8,7 @@ email: sldjlzy@163.com
 
 # <center> 李之悦 
 
-<!-- <img src="picture.jpg" width="25%"></img> -->
+<img src="picture.jpg" width="25%"></img>
 
 ### 个人简介 
 目前正在清华大学计算机系攻读硕士学位，导师为清华大学Fastsys实验室的张广艳老师，主要研究方向为存储阵列与分布式事务系统。
@@ -34,3 +34,6 @@ email: sldjlzy@163.com
 * 2021.09 清华之友奖学金
 * 2020.06 北航校级优秀毕业生
 * 2017.09 国家奖学金
+
+---
+[English version](intro_en.markdown)
