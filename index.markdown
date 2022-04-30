@@ -3,10 +3,8 @@ layout: homepagepost
 title: 个人主页
 name: 李之悦
 email: sldjlzy@163.com
+geometry: margin=15%
 ---
-
-<!-- <div style="width:75%" > -->
-<div style="margin-left: 15%; margin-right: 15%;">
 
 # <center> 李之悦
 
@@ -44,5 +42,3 @@ Github链接：[Github](github.com/lizhiyuell)
 * 2017.09 国家奖学金
 
 ---
-
-</div>
