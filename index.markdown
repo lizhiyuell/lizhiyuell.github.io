@@ -3,7 +3,7 @@ layout: homepagepost
 title: 个人主页
 name: 李之悦
 email: sldjlzy@163.com
-geometry: margin=15%
+geometry: "left=5cm,right=5cm"
 ---
 
 # <center> 李之悦
