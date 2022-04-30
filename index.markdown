@@ -5,6 +5,9 @@ name: 李之悦
 email: sldjlzy@163.com
 ---
 
+<!-- <div style="width:75%" > -->
+<div style="margin-left: 15%; margin-right: 15%;">
+
 # <center> 李之悦
 
 <p align="right"><a href="intro_en">English</a></p>
@@ -41,3 +44,5 @@ Github链接：[Github](github.com/lizhiyuell)
 * 2017.09 国家奖学金
 
 ---
+
+</div>
