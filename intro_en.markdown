@@ -43,4 +43,3 @@ Github link：[Github](github.com/lizhiyuell)
 
 
 ---
-[Chinese version](index.markdown)
