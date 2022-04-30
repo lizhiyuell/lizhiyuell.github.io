@@ -7,7 +7,7 @@ email: sldjlzy@163.com
 
 # <center> Zhiyue Li
 
-<p align="right"><a href="https://lizhiyuell.github.io/index.markdown">简体中文</a></p>
+<p align="right"><a href="index">简体中文</a></p>
 
 ---
 

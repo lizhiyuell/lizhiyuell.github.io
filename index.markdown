@@ -7,7 +7,7 @@ email: sldjlzy@163.com
 
 # <center> 李之悦
 
-<p align="right"><a href="https://lizhiyuell.github.io/intro_en.markdown">English</a></p>
+<p align="right"><a href="intro_en">English</a></p>
 
 ---
 
