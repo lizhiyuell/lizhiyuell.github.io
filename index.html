@@ -5,9 +5,11 @@ name: 李之悦
 email: sldjlzy@163.com
 ---
 
-<!-- <div style="left: margin 15%; right: margin 15%"> -->
-
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEJKZDEERR"></script>
@@ -15,100 +17,232 @@ email: sldjlzy@163.com
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-XEJKZDEERR');
   </script>
 
-  <title>个人主页</title>
+  <title>李之悦 | 个人主页</title>
 
-  <h1 id="-李之悦"><center> 李之悦</center></h1>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-  <p align="right"><a href="intro_en">English</a></p>
+    body {
+      margin: 0;
+      padding: 40px 0;
+      background-color: #f2f4f7;
+      font-family: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      color: #222;
+      line-height: 1.8;
+    }
 
-  <hr />
+    .page-container {
+      width: 88%;
+      max-width: 980px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 36px 42px 48px 42px;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    }
 
-  <h3 id="个人简介">个人简介</h3>
-  <p>目前正在清华大学计算机系攻读博士学位，主要研究方向为高性能存储系统。</p>
+    .top-bar {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
 
-  <p>联系方式：sldjlzy@163.com</p>
+    .top-bar a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
 
-  <p>Github链接：<a href="https://github.com/lizhiyuell">Github</a></p>
+    .top-bar a:hover {
+      text-decoration: underline;
+    }
 
-  <h3 id="学习经历">学习经历</h3>
-  <ul>
-    <li>2023.09 至今，清华大学计算机科学与技术系，攻读博士学位</li>
-    <li>2020.09 - 2023.06，清华大学计算机科学与技术系，硕士学位</li>
-    <li>2016.09 - 2020.06，北京航空航天大学电子信息工程学院，学士学位</li>
-  </ul>
+    .page-title {
+      text-align: center;
+      font-size: 34px;
+      margin: 10px 0 24px 0;
+      color: #1f2d3d;
+      letter-spacing: 1px;
+    }
 
-  <h3 id="研究方向">研究方向</h3>
-  <ul>
-    <li>嵌入向量存储与检索系统</li>
-    <li>高性能存储系统</li>
-    <li>编码存储</li>
-    <li>分布式事务系统</li>
-  </ul>
+    hr {
+      border: none;
+      border-top: 1px solid #d9e2ec;
+      margin: 24px 0 28px 0;
+    }
 
-  <h3 id="论文发表">论文发表</h3>
-  <ul>
-    <li>
-      <p>
-        <strong><em>[SIGMOD]</em></strong> <strong></strong>Zhiyue Li</strong>, Guangyan Zhang, Ruochun Jin, Bojun Li, Xiaoguang Ren, and Wenjing Yang. PathSeer: Adaptive Neighbor Handling for Efficient Filtered ANN Search <em>(SIGMOD '26)</em>.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[FAST]</em></strong> Xiao Niu, Guangyan Zhang, <strong>Zhiyue Li</strong>, and Sijie Cai. DRBoost: Boosting Degraded Read Performance in MSR-Coded Storage Clusters. <em>(FAST '26)</em>.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[TOS]</em></strong> <strong>Zhiyue Li</strong>, and Guangyan Zhang. Building Stream-based Page Cache to Accelerate File Scanning on Fast Storage Devices. ACM <em>Transactions on Storage</em> (2025).
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[TOS]</em></strong> <strong>Zhiyue Li</strong>, Guangyan Zhang, Yang Wang. "Flash-oriented Coded Storage: Research Status and Future Directions. <em>ACM Transactions on Storage</em> 21.1 (2024): 1-37.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[USENIX ATC]</em></strong> <strong>Zhiyue Li</strong>, Guangyan Zhang. StreamCache: Revisiting Page Cache for File Scanning on Fast Storage Devices. In the Proceedings of the 33th USENIX Annual Technical Conference <em>(USENIX ATC '24)</em>, Santa Clara, CA, July 2024. Pages 1119-1134.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[Fundamental Research]</em></strong> <strong>Zhiyue Li</strong>, Guangyan Zhang. A New disk array paradigm with I/O resources shared
-        globally: Theory and case study. Fundamental Research. https://doi.org/10.1016/j.fmre.2022.12.011. 2023.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[FAST]</em></strong> Tianyang Jiang, Guangyan Zhang, <strong>Zhiyue Li</strong>, and Weimin Zheng. Aurogon: Taming Aborts in All Phases for Distributed In-Memory Transactions. In the Proceedings of the 20th USENIX Conference on File and Storage Technologies <em>(FAST '22)</em>, Santa Clara, CA, February 2022. Pages 217-232.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[FITEE]</em></strong> Yun Teng, <strong>Zhiyue Li</strong>, Jing Huang, Guangyan Zhang. ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems. Frontiers of Information Technology &amp; Electronic Engineering.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong><em>[FAST]</em></strong> Tianyang Jiang, Guangyan Zhang, Zican Huang, Xiaosong Ma, Junyu Wei, <strong>Zhiyue Li</strong>, Weimin Zheng. FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays. In the Proceedings of the 19th USENIX Conference on File and Storage Technologies <em>(FAST '21)</em>, Santa Clara, CA, February 2021. Pages 355-370.
-      </p>
-    </li>
-  </ul>
+    .section-card {
+      background-color: #f4f9ff;
+      border: 1px solid #d6eaff;
+      border-radius: 12px;
+      padding: 22px 28px;
+      margin-bottom: 22px;
+    }
 
-  <h3 id="获奖情况">获奖情况</h3>
-  <ul>
-    <li>2023 清华大学计算机系优秀毕业生</li>
-    <li>2023 西贝尔学者奖学金</li>
-    <li>2021.09 清华之友奖学金</li>
-    <li>2020.06 北航校级优秀毕业生</li>
-    <li>2017.09 国家奖学金</li>
-  </ul>
+    .section-title {
+      margin: 0 0 16px 0;
+      text-align: center;
+      color: #1e63b6;
+      font-size: 24px;
+      font-weight: 700;
+    }
 
-  <hr />
+    p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
 
+    ul {
+      margin: 8px 0 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .pub-list li {
+      margin-bottom: 14px;
+    }
+
+    .pub-list p {
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px 0;
+      }
+
+      .page-container {
+        width: 94%;
+        padding: 24px 18px 30px 18px;
+      }
+
+      .page-title {
+        font-size: 28px;
+      }
+
+      .section-title {
+        font-size: 22px;
+      }
+    }
+  </style>
 </head>
-<!-- </div> -->
+
+<body>
+  <div class="page-container">
+
+    <div class="top-bar">
+      <a href="intro_en">English</a>
+    </div>
+
+    <h1 class="page-title">李之悦</h1>
+
+    <hr />
+
+    <div class="section-card">
+      <h2 class="section-title">个人简介</h2>
+      <p>目前正在清华大学计算机系攻读博士学位，主要研究方向为高性能存储系统。</p>
+      <p>联系方式：<a href="mailto:sldjlzy@163.com">sldjlzy@163.com</a></p>
+      <p>Github链接：<a href="https://github.com/lizhiyuell" target="_blank">Github</a></p>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">学习经历</h2>
+      <ul>
+        <li>2023.09 至今，清华大学计算机科学与技术系，攻读博士学位</li>
+        <li>2020.09 - 2023.06，清华大学计算机科学与技术系，硕士学位</li>
+        <li>2016.09 - 2020.06，北京航空航天大学电子信息工程学院，学士学位</li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">研究方向</h2>
+      <ul>
+        <li>嵌入向量存储与检索系统</li>
+        <li>高性能存储系统</li>
+        <li>编码存储</li>
+        <li>分布式事务系统</li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">论文发表</h2>
+      <ul class="pub-list">
+        <li>
+          <p><strong><em>[SIGMOD]</em></strong> <strong>Zhiyue Li</strong>, Guangyan Zhang, Ruochun Jin, Bojun Li, Xiaoguang Ren, and Wenjing Yang. PathSeer: Adaptive Neighbor Handling for Efficient Filtered ANN Search. <em>(<strong>SIGMOD '26</strong>)</em>.</p>
+        </li>
+        <li>
+          <p><strong><em>[FAST]</em></strong> Xiao Niu, Guangyan Zhang, <strong>Zhiyue Li</strong>, and Sijie Cai. DRBoost: Boosting Degraded Read Performance in MSR-Coded Storage Clusters. <em>(<strong>FAST '26</strong>)</em>.</p>
+        </li>
+        <li>
+          <p><strong><em>[TOS]</em></strong> <strong>Zhiyue Li</strong> and Guangyan Zhang. Building Stream-based Page Cache to Accelerate File Scanning on Fast Storage Devices. <em>ACM Transactions on Storage</em> (<strong>TOS</strong>), 2025.</p>
+        </li>
+        <li>
+          <p><strong><em>[TOS]</em></strong> <strong>Zhiyue Li</strong>, Guangyan Zhang, and Yang Wang. Flash-oriented Coded Storage: Research Status and Future Directions. <em>ACM Transactions on Storage</em> (<strong>TOS</strong>) 21.1 (2024): 1-37.</p>
+        </li>
+        <li>
+          <p><strong><em>[USENIX ATC]</em></strong> <strong>Zhiyue Li</strong> and Guangyan Zhang. StreamCache: Revisiting Page Cache for File Scanning on Fast Storage Devices. In the Proceedings of the 33rd USENIX Annual Technical Conference <em>(<strong>USENIX ATC '24</strong>)</em>, Santa Clara, CA, July 2024, pp. 1119-1134.</p>
+        </li>
+        <li>
+          <p><strong><em>[Fundamental Research]</em></strong> <strong>Zhiyue Li</strong> and Guangyan Zhang. A New Disk Array Paradigm with I/O Resources Shared Globally: Theory and Case Study. <em>Fundamental Research</em>, 2023.</p>
+        </li>
+        <li>
+          <p><strong><em>[FAST]</em></strong> Tianyang Jiang, Guangyan Zhang, <strong>Zhiyue Li</strong>, and Weimin Zheng. Aurogon: Taming Aborts in All Phases for Distributed In-Memory Transactions. In the Proceedings of the 20th USENIX Conference on File and Storage Technologies <em>(<strong>FAST '22</strong>)</em>, Santa Clara, CA, February 2022, pp. 217-232.</p>
+        </li>
+        <li>
+          <p><strong><em>[FITEE]</em></strong> Yun Teng, <strong>Zhiyue Li</strong>, Jing Huang, and Guangyan Zhang. ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems. <em>Frontiers of Information Technology &amp; Electronic Engineering</em> (<strong>FITEE</strong>).</p>
+        </li>
+        <li>
+          <p><strong><em>[FAST]</em></strong> Tianyang Jiang, Guangyan Zhang, Zican Huang, Xiaosong Ma, Junyu Wei, <strong>Zhiyue Li</strong>, and Weimin Zheng. FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays. In the Proceedings of the 19th USENIX Conference on File and Storage Technologies <em>(<strong>FAST '21</strong>)</em>, Santa Clara, CA, February 2021, pp. 355-370.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">专利申请</h2>
+      <ul>
+        <li>张广艳，姜天洋，李之悦. 分布式事务处理方法、装置、设备、存储介质及程序产品（已授权）. 授权号：CN114398157B. 授权日期：2024.09.03.</li>
+        <li>张广艳，李之悦. 超算集群中突发缓存节点的存储管理方法及装置（已公开）. 公开号：CN117271379A. 公开日期：2023.12.22.</li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">学术兼职</h2>
+      <ul>
+        <li>ASPLOS 2026 Artifact Evaluation Committee (AEC) 成员</li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">获奖情况</h2>
+      <ul>
+        <li>2025 华为奖学金</li>
+        <li>2024 慧妍英才奖学金</li>
+        <li>2023 清华大学计算机系优秀毕业生</li>
+        <li>2023 西贝尔学者奖学金</li>
+        <li>2021 清华之友奖学金</li>
+        <li>2020 北航校级优秀毕业生</li>
+        <li>2017 国家奖学金</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
